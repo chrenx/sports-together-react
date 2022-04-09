@@ -139,6 +139,8 @@ const FormPage = ({setFindMatch, setSuccess}) => {
                     <label>Number of people needed (please include yourself):</label>
                     <input type="number"
                            required 
+                           min="2"
+                           max="100"
                         //    value={ numOfPeopleNeeded } 
                            onChange={(e) => setNumOfPeople(e.target.value)}>
                     </input>
