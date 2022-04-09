@@ -1,0 +1,7 @@
+#!/bin/bash
+
+npm i -g npx
+
+npm install
+
+npm run start

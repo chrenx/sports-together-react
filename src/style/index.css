@@ -1,0 +1,339 @@
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  caret-color: transparent;
+}
+
+#bold {
+  font-weight: bold;
+}
+#empty-line5 {
+  margin-bottom: 5px;
+}
+#empty-line20 {
+  margin-bottom: 25px;
+}
+#bold-bigger {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar {
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  background-color: black;
+  position: fixed;
+  z-index: 9999;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.navbar img {
+  position: absolute;
+  top: 30%;
+  width: 100px;
+  left: 3%;
+}
+
+/* .content {
+  top: 10%;
+  width: 100%;
+  height: 90%;
+  position: relative;
+} */
+
+.split {
+  top: 10%;
+  height: 90%;
+  width: 50%;
+  position: fixed;
+}
+.left-side {
+  left: 0;
+  text-align: center;
+  position: fixed;
+  /* top: 20%; */
+}
+.left-side h3 {
+  margin-top: 40px;
+}
+.left-side img {
+  width: 100px;
+}
+.centered {
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  border-width: 3px;
+  padding: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+#enter-main {
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  border-color: black;
+  border: solid 3px;
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 50px;
+  text-decoration: none;
+  color: black;
+}
+.right-side {
+  right: 0;
+}
+.right-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.split-view {
+  height: 90%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.left-container {
+  /* width: 50%; */
+  top: 10%;
+  /* position: absolute; */
+  left: 0;
+  /* width: 50%; */
+  /* border-radius: 20px;
+  border-color: black;
+  border: solid 5px; */
+  margin: 10px 10px 10px 10px;
+  padding: 8px;
+  overflow-y: scroll;
+  height: 84%;
+}
+
+.right-container {
+  top: 10%;
+  right: 0;
+  width: 50%;
+}
+.successful-submit {
+  color: green;
+  position: absolute;
+  margin-top: 100px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 30px;
+}
+.find-match {
+  border-radius: 20px;
+  border-color: black;
+  border: solid 3px;
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 200px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.extra-info {
+  color: gray;
+  position: absolute;
+  margin-top: 450px;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.one-post {
+  position: relative;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 25px;
+  border-width: 3px;
+  border-spacing: 0;
+  padding: 10px;
+  display: flex;
+}
+.left-col {
+  flex: 60%;
+}
+.right-col {
+  flex: 30%;
+}
+#join-button {
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  padding: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+
+.form-page {
+  /* display: none; */
+  position: absolute;
+}
+.basic-info {
+  caret-color: black;
+  margin-left: 30px;
+}
+/* .info {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.info div {
+  margin-bottom: 20px;
+} */
+
+.info {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.info label {
+  text-align: left;
+  display: block;
+}
+
+/* .gray-text {
+  color: gray;
+} */
+
+.info input, .info select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.info button {
+  margin-top: 15px;
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-form-btn {
+  margin-right: 50px;
+}
+
+.cancel-form-btn {
+  margin-right: 50px;
+}
+
+/* 
+.submit-form-btn {
+  margin-top: 35px;
+  border-radius: 12px;
+  border-color: black;
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.cancel-form-btn {
+  margin-left: 35px;
+  margin-top: 35px;
+  border-radius: 12px;
+  border-color: black;
+  padding: 8px;
+  background-color: transparent;
+  cursor: pointer;
+} */
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+.clearfix button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.cancelbtn, .deletebtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add a color to the cancel button */
+.cancelbtn {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+}
+
+/* Add padding and center-align text to the container */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

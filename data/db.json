@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "sport": "Volleyball",
+      "numOfPeople": 3,
+      "currentNumOfPeople": 2,
+      "location": "927 E Ann st",
+      "host": "Leonard",
+      "contactInfo": "12345@umich.edu",
+      "date": "05-16-2022",
+      "time": "12:00 PM",
+      "joinBtn": "Join",
+      "own": false,
+      "id": 1
+    },
+    {
+      "sport": "Basketball",
+      "numOfPeople": 5,
+      "currentNumOfPeople": 2,
+      "location": "1234 E Ann st",
+      "host": "Ben",
+      "contactInfo": "Ben@umich.edu",
+      "date": "05-25-2022",
+      "time": "05:00 PM",
+      "joinBtn": "Join",
+      "own": false,
+      "id": 2
+    },
+    {
+      "sport": "Tennis",
+      "numOfPeople": 2,
+      "currentNumOfPeople": 2,
+      "location": "435645645 E Ann st",
+      "host": "Alex",
+      "contactInfo": "Alex@umich.edu",
+      "date": "05-26-2022",
+      "time": "12:00 PM",
+      "joinBtn": "Join",
+      "own": false,
+      "id": 3
+    },
+    {
+      "sport": "Soccer",
+      "numOfPeople": 8,
+      "currentNumOfPeople": 6,
+      "location": "asdasd E Ann st",
+      "host": "Kate",
+      "contactInfo": "Kate@umich.edu",
+      "date": "08-19-2022",
+      "time": "01:00 PM",
+      "joinBtn": "Join",
+      "own": false,
+      "id": 4
+    },
+    {
+      "sport": "Badminton",
+      "numOfPeople": 2,
+      "currentNumOfPeople": 1,
+      "location": "927 E Yes st",
+      "host": "Jess",
+      "contactInfo": "Jess@umich.edu",
+      "date": "05-30-2022",
+      "time": "07:00 PM",
+      "joinBtn": "Join",
+      "own": false,
+      "id": 5
+    },
+    {
+      "sport": "Gym",
+      "numOfPeople": 2,
+      "currentNumOfPeople": 1,
+      "location": "323 E No st",
+      "host": "Hugo",
+      "contactInfo": "Hugo@umich.edu",
+      "date": "09-26-2022",
+      "time": "10:00 AM",
+      "joinBtn": "Join",
+      "own": false,
+      "id": 6
+    }
+  ]
+}
