@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/sports-together-react/static/css/main.4bd95f5f.css",
+    "main.js": "/sports-together-react/static/js/main.f12b30c6.js",
+    "static/media/balls.png": "/sports-together-react/static/media/balls.319e9de3aa823328c47a.png",
+    "static/media/index_bg.jpeg": "/sports-together-react/static/media/index_bg.c199a67d1f01598cd0f3.jpeg",
+    "static/media/click.jpeg": "/sports-together-react/static/media/click.5bab8860f6dc8bcd35d4.jpeg",
+    "index.html": "/sports-together-react/index.html",
+    "main.4bd95f5f.css.map": "/sports-together-react/static/css/main.4bd95f5f.css.map",
+    "main.f12b30c6.js.map": "/sports-together-react/static/js/main.f12b30c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4bd95f5f.css",
+    "static/js/main.f12b30c6.js"
+  ]
+}
