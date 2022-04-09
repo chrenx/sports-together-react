@@ -13,8 +13,8 @@ const PopUpWindow = ({handleFinalDecision}) => {
     return (
         <form className="modal-content" >
             <div className="container">
-                <h1>Delete Account</h1>
-                <p>Are you sure you want to delete your account?</p>
+                <h1>Delete Post</h1>
+                <p>Are you sure you want to delete your post?</p>
                 
                 <div className="clearfix">
                     <button type="button" onClick={cancelBtn} className="cancelbtn">Cancel</button>
