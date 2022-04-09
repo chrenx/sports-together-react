@@ -9,3 +9,6 @@ To run the program, please follow the steps below:
 5. open anthoer terminal window and go to the same directory
 6. type **'npx json-server --watch data/db.json --port 8000'**
 7. everything should work now
+  
+  
+Everyone contributed evenly to this project. I(chrenx) design the whole structure while the rest of my teammates work on some of the components and style.
