@@ -4,4 +4,6 @@ npm i -g npx
 
 npm install
 
+npm install react-router-dom
+
 npm run start
